@@ -23,7 +23,7 @@ spec:
         image: bootdotdev/synergychat-crawler:latest
         envFrom:
         - configMapRef:
-            name: synergychat-crawler-configmap
+          name: synergychat-crawler-configmap
         env:
         - name: CRAWLER_PORT
           valueFrom:
@@ -37,7 +37,7 @@ spec:
         image: bootdotdev/synergychat-crawler:latest
         envFrom:
         - configMapRef:
-            name: synergychat-crawler-configmap
+          name: synergychat-crawler-configmap
         env:
         - name: CRAWLER_PORT
           valueFrom:
@@ -51,7 +51,7 @@ spec:
         image: bootdotdev/synergychat-crawler:latest
         envFrom:
         - configMapRef:
-            name: synergychat-crawler-configmap
+          name: synergychat-crawler-configmap
         env:
         - name: CRAWLER_PORT
           valueFrom:

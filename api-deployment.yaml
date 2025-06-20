@@ -23,7 +23,7 @@ spec:
         image: bootdotdev/synergychat-api:latest
         envFrom:
         - configMapRef:
-            name: synergychat-api-configmap
+          name: synergychat-api-configmap
         volumeMounts:
         - name: synergychat-api-volume
           mountPath: /persist

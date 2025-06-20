@@ -19,4 +19,4 @@ spec:
         image: docker.io/bootdotdev/synergychat-web:latest
         envFrom:
         - configMapRef:
-            name: synergychat-web-configmap
+          name: synergychat-web-configmap
